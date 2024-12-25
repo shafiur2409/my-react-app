@@ -1,0 +1,85 @@
+/* General Body Styling */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0; /* Light gray background for the whole page */
+  color: #333; /* Dark text for readability */
+}
+
+/* Main Container */
+div {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #ffffff; /* White background for the content area */
+}
+
+/* Header Styling */
+header {
+  background-color: #004d99; /* Dark blue background for the header */
+  color: #fff; /* White text */
+  padding: 20px;
+  text-align: center;
+}
+
+/* Section Styling */
+section {
+  padding: 30px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Home Section */
+#home {
+  background-color: #e3f2fd; /* Light blue background for home */
+}
+
+/* Services Section */
+#services {
+  background-color: #e8f5e9; /* Light green background for services */
+}
+
+/* About Section */
+#about {
+  background-color: #fff3e0; /* Light orange background for about */
+}
+
+/* Contact Section */
+#contact {
+  background-color: #fffde7; /* Light yellow background for contact */
+}
+
+/* Footer Styling */
+footer {
+  background-color: #004d99; /* Dark blue footer background */
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Image Gallery */
+.image-gallery img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+/* Button Styling */
+button {
+  background-color: #004d99; /* Blue button */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #003366; /* Darker blue on hover */
+}
+
+
